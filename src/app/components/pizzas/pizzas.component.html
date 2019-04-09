@@ -1,0 +1,13 @@
+<mat-list role="list">
+  <div class="grid-container">
+    <div class="first">
+      <mat-list-item role="listitem" 
+        *ngFor="let item of itemsList">{{item}}</mat-list-item>
+    </div>
+    <div class="second">
+      <mat-list-item role="listitem" 
+        *ngFor="let price of priceList">{{price}}</mat-list-item>
+    </div>
+  </div>
+</mat-list>
+

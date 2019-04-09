@@ -1,0 +1,32 @@
+.grid-container {
+  margin: 20px;
+  // background: rgb(158, 240, 222);
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  // background: rgb(228, 155, 155);
+}
+
+.dashboard-card-content {
+  text-align: center;
+  // background: rgb(202, 255, 152);
+}
+
+.image {
+  // position: relative;
+  // top: 10px;
+  // left: 10px;
+  // right: 10px;
+  // bottom: 10px;
+
+  padding-bottom: 10px;
+  max-width: 400px;
+  max-height: 200px;
+  background-size: cover;
+  // background: red;
+}

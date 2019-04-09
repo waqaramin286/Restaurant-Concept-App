@@ -1,0 +1,20 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Specials</h1>
+  <mat-grid-list cols="2" rowHeight="350px" class="grid-list">
+    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            {{card.title}}
+          </mat-card-title>
+        </mat-card-header>
+        <picture class="picture">
+          <img class="img" src="{{card.image}}" alt="">
+        </picture>
+        <mat-card-content class="dashboard-card-content">
+          {{card.content}}
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
